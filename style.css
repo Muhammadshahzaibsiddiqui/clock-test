@@ -1,0 +1,57 @@
+#clock-dial-wrapper {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+#clock-dial {
+    width: 400px;
+    height: 400px;
+    background-image: url('dial-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clock-dial #hour {
+    position: relative;
+    top: 120px;
+    left: 116px;
+    z-index: 100;
+}
+
+#clock-dial #hour img {
+    width: 6rem;
+}
+
+#clock-dial #min {
+    position: relative;
+    top: 0px;
+    left: 170px;
+}
+
+#clock-dial #min img {
+    width: 9rem;
+}
+
+#clock-dial #sec {
+    position: relative;
+    top: -50px;
+    left: 160px;
+}
+
+#clock-dial #sec img {
+    width: 10rem;
+}
+
+#clock-dial #mid-dot {
+    position: relative;
+    top: -140px;
+    left: 190px;
+    z-index: 101;
+}
+
+#clock-dial #mid-dot img {
+    width: 7px;
+}
